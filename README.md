@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Capital Placement Application Form Task
 
-## Available Scripts
+A system that monitors and does proper documentation of user applications in the firm.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Icons](#icons)
+- [Functionalities](#functionalities)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Screenshots
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Capital application screensnhot homescreen](src/assets/app2.png)
+![Capital application screensnhot homescreen](src/assets/app3.png)
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. [Ant Design (AntD)](https://ant.design/): A popular React UI library for building web applications with a clean and modern design.
 
-### `npm run build`
+2. [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework that simplifies building responsive and highly customizable web interfaces.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Icons
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Icons used in the project are sourced from Ant Design Icons.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Functionalities
 
-### `npm run eject`
+### 1. Universal Application
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The application can be utilized for any kind of application, making it suitable for various industries and use cases.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Dynamic Field Addition
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Users have the flexibility to add as many fields as they require. Whether it's for job applications, surveys, or other forms, the application adapts to the user's needs.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 3. Extensible Design
 
-## Learn More
+The application's design can be extended to accommodate additional functionalities and features. It serves as a foundation for creating custom forms with a user-friendly interface.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-Clone the repository by copying the link, on your terminal run git clone the (the link), the after cloning run npm install to install dependencies then finally npm start to run the project
+
+## Usage
+
+Users can utilize the application for:
+
+### 1. Creating versatile applications for various industries and scenarios.
+
+### 2. Customizing fields to match specific requirements.
+
+### 3. Adding numerous fields for complex forms and diverse data needs.
+
+## Contributing
+
+Contributors can:
+
+### 1. Enhance the application's design for a better user experience.
+
+### 2. Integrate the application with a backend API to enable data storage and further functionality.
+
+### 3. Add new features and functionalities catering to specific industry needs or use cases

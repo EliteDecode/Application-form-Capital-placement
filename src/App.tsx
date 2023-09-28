@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
 
-function App() {
+import { Layout, theme } from "antd";
+import Sidebar from "./components/Sidebar";
+import ContentBox from "./components/Contents/ContentBox";
+
+const { Header, Content } = Layout;
+
+const App: React.FC = () => {
+  const [collapsed, setCollapsed] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout className="h-screen">
+      <Sidebar collapsed={collapsed} setCollapsed={setCollapsed} />
+      <Layout className="fixed-height">
+        <Header style={{ padding: 0, background: "#fafafa" }}>
+          <div className="text-center">
+            <h1 className="font-bold text-[18px]">
+              Capital Placement Application Form
+            </h1>
+          </div>
+        </Header>
+        <ContentBox />
+      </Layout>
+    </Layout>
   );
-}
+};
 
 export default App;
